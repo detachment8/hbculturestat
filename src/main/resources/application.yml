@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.222.6.46:3306/hbculturestat?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root#2020
+  jackson:
+    accept_case_insensitive_properties: true
+mybatis:
+  set-map
+server:
+  servlet:
+      context-path: /hbculturestat
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
