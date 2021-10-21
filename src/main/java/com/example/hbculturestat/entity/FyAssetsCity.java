@@ -3,6 +3,8 @@ package com.example.hbculturestat.entity;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.time.Year;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -33,7 +35,7 @@ import lombok.EqualsAndHashCode;
       /**
      * 年份
      */
-      private LocalDateTime timePoint;
+      private Year timePoint;
 
       /**
      * 资产合计（千元）

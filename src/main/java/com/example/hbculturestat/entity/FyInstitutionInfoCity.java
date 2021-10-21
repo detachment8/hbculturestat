@@ -2,6 +2,8 @@ package com.example.hbculturestat.entity;
 
 import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.time.Year;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -32,7 +34,7 @@ import lombok.EqualsAndHashCode;
       /**
      * 年份
      */
-      private LocalDateTime timePoint;
+      private Year timePoint;
 
       /**
      * 机构数量（个）

@@ -69,7 +69,7 @@ public class CodeGenerator {
         // 公共父类
         // 写于父类中的公共字段
         strategy.setSuperEntityColumns("id");
-        strategy.setInclude(("fy_institution_info_city").split(","));
+        strategy.setInclude(("fy_expenditure_city").split(","));
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
         mpg.setStrategy(strategy);

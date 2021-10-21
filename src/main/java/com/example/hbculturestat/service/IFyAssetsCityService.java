@@ -3,6 +3,8 @@ package com.example.hbculturestat.service;
 import com.example.hbculturestat.entity.FyAssetsCity;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
+
 /**
  * <p>
  * 14年各地区非物质文化遗产资产表 服务类
@@ -12,5 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2021-10-19
  */
 public interface IFyAssetsCityService extends IService<FyAssetsCity> {
-
+    public List<FyAssetsCity> getFyAssets();
 }
