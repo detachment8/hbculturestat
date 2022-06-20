@@ -8,9 +8,9 @@ spring:
     accept_case_insensitive_properties: true
 mybatis:
   set-map
-server:
-  servlet:
-      context-path: /hbculturestat
+#server:
+#  servlet:
+#      context-path: /hbculturestat
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

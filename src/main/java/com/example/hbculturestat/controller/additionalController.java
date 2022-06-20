@@ -17,9 +17,9 @@ public class additionalController {
     @Autowired
     private FyAllCityMapper fyAllCityMapper;
 
-    @GetMapping("GetFyAllCity")
-    public List<fyAllCityChinese> GetFyAllCity(String adminCode, String year){
-        List<FyAllCity> FyAllCityList= fyAllCityMapper.getFyAllCity(adminCode,year);
+    @GetMapping("/servlet/GetFyAllCity")
+    public List<fyAllCityChinese> GetFyAllCity(String ADMINCODE, String year){
+        List<FyAllCity> FyAllCityList= fyAllCityMapper.getFyAllCity(ADMINCODE,year);
         List<fyAllCityChinese> list = new ArrayList<fyAllCityChinese>();
         for (FyAllCity temp:FyAllCityList){
             fyAllCityChinese tempChinese = new fyAllCityChinese(temp.unitName,

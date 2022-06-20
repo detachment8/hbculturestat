@@ -83,7 +83,7 @@
 
 
     <build>
-        <finalName>FYWeb</finalName>
+        <finalName>hbculturestat</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
