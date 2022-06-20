@@ -3,6 +3,9 @@ package com.example.hbculturestat.dto;
 import lombok.Data;
 
 
+import lombok.Data;
+
+@Data
 public class FyAllCity {
   public  String unitName;
   public  String cityCode;
